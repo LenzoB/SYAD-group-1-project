@@ -137,7 +137,6 @@ th{
                 <th>Lastname</th>
                 <th>Sex</th>
                 <th>Email</th>
-                <th>Image</th>
 
             </tr>
             <tbody>
