@@ -64,21 +64,6 @@ $email = $_SESSION['email'];
         a:hover {
             color: orange;
         }
- 
-        .deposit_info table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-        .deposit_info table,
-        .deposit_info th,
-        .deposit_info td {
-            border: 1px solid #ddd;
-        }
-        .deposit_info th,
-        .deposit_info td {
-            padding: 10px;
-            text-align: left;
-        }
         .deposit_info {
             float: right;
             width: 75%;
