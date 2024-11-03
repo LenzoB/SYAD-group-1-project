@@ -66,22 +66,7 @@ $email = $_SESSION['email'];
     font-size:23px;
     transition: 0.5s;
 }
-
-        .deposit_info table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-        .deposit_info table,
-        .deposit_info th,
-        .deposit_info td {
-            border: 1px solid #ddd;
-        }
-        .deposit_info th,
-        .deposit_info td {
-            padding: 10px;
-            text-align: left;
-        }
-        .deposit_info {
+        .loan_info {
             float: right;
             width: 75%;
             margin-top: 130px;
@@ -133,7 +118,7 @@ $email = $_SESSION['email'];
                     onclick="return confirm('Are You sure you want to LogOut?')">Logout</a><br>
             </div>
         </div>
-        <div class="deposit_info">
+        <div class="loan_info">
             <h1>Loans</h1>
             <a href="calc_loaninterest.php"><button
                     class="calc_button">Calculator</button></a>
